@@ -1,0 +1,522 @@
+-----------------------------------------------------------------------------------------
+agecat                                                                        (unlabeled)
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: agecat
+
+                 Range: [1,7]                         Units: 1
+         Unique values: 7                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        1,647         1  18 to 29 years
+                        1,956         2  30 to 39 years
+                        1,661         3  40 to 49 years
+                        1,835         4  50 to 59 years
+                          883         5  60 to 69 years
+                           15         6  70 to 79 years
+                            7         7  80 years or older
+
+-----------------------------------------------------------------------------------------
+agecat2                                                                       (unlabeled)
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: agecat2
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        7,099         1  15 to 59 years
+                          905         2  60+ years
+
+-----------------------------------------------------------------------------------------
+sex                                                          GENDER. Gender of respondent
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels1
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        4,056         1  Male
+                        3,945         2  Female
+                            3         3  Prefer to self-describe
+
+-----------------------------------------------------------------------------------------
+fampop                                                                        (unlabeled)
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [1,17]                        Units: 1
+         Unique values: 17                        Missing .: 0/8,004
+
+                  Mean: 4.46127
+             Std. dev.: 2.49966
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              1         3         4         6         8
+
+-----------------------------------------------------------------------------------------
+fampop1559                                Number of family members between ages 15 and 59
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,14]                        Units: 1
+         Unique values: 15                        Missing .: 0/8,004
+
+                  Mean: 3.18028
+             Std. dev.:  1.7512
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              1         2         3         4         6
+
+-----------------------------------------------------------------------------------------
+fampop60pl                                               Number of family members age 60+
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,7]                         Units: 1
+         Unique values: 8                         Missing .: 0/8,004
+
+            Tabulation: Freq.  Value
+                        4,604  0
+                        1,102  1
+                        1,993  2
+                          154  3
+                           77  4
+                           40  5
+                           31  6
+                            3  7
+
+-----------------------------------------------------------------------------------------
+educ                                                        Education level of respondent
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels127
+
+                 Range: [1,5]                         Units: 1
+         Unique values: 5                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                          299         1  Primary school
+                        1,374         2  Secondary school
+                        2,459         3  Some university/Vocational
+                                         school
+                        3,863         4  University
+                            9         5  Prefer not to answer
+
+-----------------------------------------------------------------------------------------
+hhincome                                                 Monthly pre-tax household income
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: hhincome
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        3,904         1  5000 RMB or less
+                        4,077         2  at least 5001 RMB
+                           23         3  Prefer not to answer
+
+-----------------------------------------------------------------------------------------
+eversmk                                                         Ever been a smoker or not
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: eversmk
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        5,585         0  I have never been a smoker
+                        2,419         1  I have smoked in the past or
+                                         currently smoke
+
+-----------------------------------------------------------------------------------------
+covidvac                                                     respondent vaccination-COVID
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels96
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        1,720         0  No
+                        6,284         1  Yes
+
+-----------------------------------------------------------------------------------------
+tier                                             Primary sampling unit for survey weights
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels31
+
+                 Range: [1,6]                         Units: 1
+         Unique values: 6                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        1,551         1  Tier1
+                        2,284         2  Tier2
+                        2,484         3  Tier3
+                          964         4  Tier4
+                          708         5  Tier5
+                           13         6  Other Cities
+
+-----------------------------------------------------------------------------------------
+svyweight                                                                   survey weight
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (double)
+
+                 Range: [.2668,1.269151]              Units: 1.000e-08
+         Unique values: 7                         Missing .: 0/8,004
+
+            Tabulation: Freq.  Value
+                            3  .2668
+                        1,735  .8543751
+                        1,777  .8657112
+                        1,165  .99002266
+                        1,186  1.0689997
+                        1,093  1.1299334
+                        1,045  1.269151
+
+-----------------------------------------------------------------------------------------
+death1_age                                                   since LNY2020: 1st death age
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,100]                       Units: 1
+         Unique values: 68                        Missing .: 7,650/8,004
+
+                  Mean: 69.1102
+             Std. dev.: 17.1762
+
+           Percentiles:     10%       25%       50%       75%       90%
+                             48        60        72        81        86
+
+-----------------------------------------------------------------------------------------
+death1_month                                               since LNY2020: 1st death month
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels71
+
+                 Range: [1,12]                        Units: 1
+         Unique values: 12                        Missing .: 7,650/8,004
+
+              Examples: .     
+                        .     
+                        .     
+                        .     
+
+-----------------------------------------------------------------------------------------
+death1_year                                                 since LNY2020: 1st death year
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels72
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 7,650/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                          106         1  2020
+                          116         2  2021
+                          109         3  2022
+                           23         4  2023
+                        7,650         .  
+
+-----------------------------------------------------------------------------------------
+death2_age                                                   since LNY2020: 2nd death age
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [18,90]                       Units: 1
+         Unique values: 36                        Missing .: 7,935/8,004
+
+                  Mean: 67.3333
+             Std. dev.: 18.7732
+
+           Percentiles:     10%       25%       50%       75%       90%
+                             40        57        77        80        85
+
+-----------------------------------------------------------------------------------------
+death3_age                                                   since LNY2020: 3rd death age
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [8,90]                        Units: 1
+         Unique values: 17                        Missing .: 7,986/8,004
+
+                  Mean: 53.6111
+             Std. dev.: 26.3464
+
+           Percentiles:     10%       25%       50%       75%       90%
+                             16        30        55        78        87
+
+-----------------------------------------------------------------------------------------
+death4_age                                                   since LNY2020: 4th death age
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [12,79]                       Units: 1
+         Unique values: 6                         Missing .: 7,997/8,004
+
+            Tabulation: Freq.  Value
+                            1  12
+                            2  22
+                            1  30
+                            1  42
+                            1  63
+                            1  79
+                        7,997  .
+
+-----------------------------------------------------------------------------------------
+death5_age                                                   since LNY2020: 5th death age
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [15,63]                       Units: 1
+         Unique values: 4                         Missing .: 8,000/8,004
+
+            Tabulation: Freq.  Value
+                            1  15
+                            1  22
+                            1  30
+                            1  63
+                        8,000  .
+
+-----------------------------------------------------------------------------------------
+death6_age                                                   since LNY2020: 6th death age
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [50,50]                       Units: 10
+         Unique values: 1                         Missing .: 8,003/8,004
+
+            Tabulation: Freq.  Value
+                            1  50
+                        8,003  .
+
+-----------------------------------------------------------------------------------------
+death2_month                                               since LNY2020: 2nd death month
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels71
+
+                 Range: [1,12]                        Units: 1
+         Unique values: 12                        Missing .: 7,935/8,004
+
+              Examples: .     
+                        .     
+                        .     
+                        .     
+
+-----------------------------------------------------------------------------------------
+death3_month                                               since LNY2020: 3rd death month
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels71
+
+                 Range: [1,12]                        Units: 1
+         Unique values: 10                        Missing .: 7,986/8,004
+
+              Examples: .     
+                        .     
+                        .     
+                        .     
+
+-----------------------------------------------------------------------------------------
+death4_month                                               since LNY2020: 4th death month
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels71
+
+                 Range: [3,11]                        Units: 1
+         Unique values: 5                         Missing .: 7,997/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            2         3  March
+                            2         5  May
+                            1         7  July
+                            1         9  September
+                            1        11  November
+                        7,997         .  
+
+-----------------------------------------------------------------------------------------
+death5_month                                               since LNY2020: 5th death month
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels71
+
+                 Range: [1,5]                         Units: 1
+         Unique values: 3                         Missing .: 8,000/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            1         1  January
+                            1         3  March
+                            2         5  May
+                        8,000         .  
+
+-----------------------------------------------------------------------------------------
+death6_month                                               since LNY2020: 6th death month
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels71
+
+                 Range: [4,4]                         Units: 1
+         Unique values: 1                         Missing .: 8,003/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            1         4  April
+                        8,003         .  
+
+-----------------------------------------------------------------------------------------
+death2_year                                                 since LNY2020: 2nd death year
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels74
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 7,935/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                           17         1  2020
+                           22         2  2021
+                           23         3  2022
+                            7         4  2023
+                        7,935         .  
+
+-----------------------------------------------------------------------------------------
+death3_year                                                 since LNY2020: 3rd death year
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels75
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 7,986/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            6         1  2020
+                            5         2  2021
+                            6         3  2022
+                            1         4  2023
+                        7,986         .  
+
+-----------------------------------------------------------------------------------------
+death4_year                                                 since LNY2020: 4th death year
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels76
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 7,997/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            2         1  2020
+                            3         2  2021
+                            1         3  2022
+                            1         4  2023
+                        7,997         .  
+
+-----------------------------------------------------------------------------------------
+death5_year                                                 since LNY2020: 5th death year
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels77
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 2                         Missing .: 8,000/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            2         1  2020
+                            2         3  2022
+                        8,000         .  
+
+-----------------------------------------------------------------------------------------
+death6_year                                                 since LNY2020: 6th death year
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: labels78
+
+                 Range: [4,4]                         Units: 1
+         Unique values: 1                         Missing .: 8,003/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                            1         4  2023
+                        8,003         .  
+
+-----------------------------------------------------------------------------------------
+death                                       Any death in family since Lunar New Year 2020
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: death
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        7,650         0  No death in family
+                          354         1  At least 1 death in family
+
+-----------------------------------------------------------------------------------------
+deathomi                                          Any death in family since November 2021
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: deathomi
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 7,650/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                          210         0  death before Omicron
+                          144         1  death during Omicron
+                        7,650         .  
+
+-----------------------------------------------------------------------------------------
+deaths_num                           Number of deaths in family since Lunar New Year 2020
+-----------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: deaths_num
+
+                 Range: [0,2]                         Units: 1
+         Unique values: 3                         Missing .: 0/8,004
+
+            Tabulation: Freq.   Numeric  Label
+                        7,650         0  no death
+                          285         1  1 death
+                           69         2  2 deaths or more
+
+
